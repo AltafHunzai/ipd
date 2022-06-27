@@ -11,8 +11,18 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
+    
 </head>
 <body>
+    <?php
+    if ($message_sent):
+    ?>
+
+    <h3>Thanks! Your message has been submitted successfully</h3>
+
+    <?php
+    else:
+    ?>
     <!-- navbar starts here -->
     <nav class=" navbar navbar-expand-lg navbar-light d-flex justify-content-between navigation-bar fixed-top">
        <a class="navbar-brand mr-5 text-white ml-5 w-20" href="#" data-value="home"><img src="./assets/logo/logo.svg" alt="brand img"></a>
@@ -121,10 +131,10 @@
             <div class="col-12 col-md-7 bg-dark form-main-div">
                 <div class="container p-2 p-md-5 ">
                 <h1 class="my-2 my-md-4 text-white font-weight-bolder">Get in Touch</h1>
-                <form action="" method="post" class=" d-flex flex-column ">
-                        <input placeholder="Full Name" type="text" class="m-2 bg-secondary text-light lead p-2 border-0 w-75 inputs">
-                        <input placeholder="Email Address" type="email" class="m-2 bg-secondary text-light lead p-2 border-0 w-75 inputs">
-                        <input placeholder="Subject" type="text" class="m-2 bg-secondary text-light lead p-2 border-0 w-75 inputs">
+                <form action="./contact.php" method="post" class=" d-flex flex-column ">
+                        <input placeholder="Full Name" id="name" type="text" class="m-2 bg-secondary text-light lead p-2 border-0 w-75 inputs">
+                        <input placeholder="Email Address" id="email" type="email" class="m-2 bg-secondary text-light lead p-2 border-0 w-75 inputs">
+                        <input placeholder="Subject" id="message" type="text" class="m-2 bg-secondary text-light lead p-2 border-0 w-75 inputs">
                     <!-- <div class="d-flex justify-content-between"> -->
                         <textarea placeholder="Your Message" name="" rows="6" id="" class="m-2 bg-secondary text-light lead p-2 border-0 w-75 inputs"></textarea>
                     <!-- </div> -->
@@ -135,8 +145,33 @@
         </div>
     </div>
     <!-- contact us form ends here -->
+    <?php
+        $message_sent = false;
+        if (isset($_POST['email']) && $_POST['email'] !='') {
 
-           <!-- footer starts here -->
+            if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+                
+                $userName = $_POST['name'];
+                $useremail = $_POST['email'];
+                $usersubject = $_POST['suubject'];
+                $usermessage = $_POST['message'];
+                
+                
+                $to = "ah5509092@gmail.com";
+                $body = "";
+                $body .= "From: ".$userName. "r/n";
+                $body .= "Email: ".$useremail. "r/n";
+                $body .= "Subject: ".$usersubject. "r/n";
+                $body .= "Message: ".$message. "r/n";
+                
+                mail($to,$usersubject,$usermessage);
+             
+                $message_sent = true;
+            }
+        }
+    ?>
+
+    <!-- footer starts here -->
     <div class="container-fluid p-0 bg-dark pt-5">
         <div class="container d-flex flex-column justify-content-between flex-md-row py-4">
         <div class="container d-flex flex-column  text-white">
@@ -179,5 +214,8 @@
     </div>
     <!-- footer ends here -->
 
+    <?php
+    endif;
+    ?>
 </body>
 </html>
