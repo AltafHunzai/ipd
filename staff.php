@@ -24,7 +24,7 @@
         <div class="collapse navbar-collapse menu-bar">
           <ul class=" navbar-nav">
             <li class="nav-item active ">
-                <a class="h5" href="home.php" data-value="about">
+                <a class="h5" href="index.php" data-value="about">
                     <button type="button" class="btn nav-btn font-weight-normal text-white px-lg-4">Home</button><span  class="sr-only">(current)</span>
                 </a>
             </li>
