@@ -131,7 +131,7 @@
             <div class="col-12 col-md-7 bg-dark form-main-div">
                 <div class="container p-2 p-md-5 ">
                 <h1 class="my-2 my-md-4 text-white font-weight-bolder">Get in Touch</h1>
-                <form action="./contact.php" method="post" class=" d-flex flex-column ">
+                <form action="./contact.php" method="POST" class=" d-flex flex-column ">
                         <input placeholder="Full Name" id="name" type="text" class="m-2 bg-secondary text-light lead p-2 border-0 w-75 inputs">
                         <input placeholder="Email Address" id="email" type="email" class="m-2 bg-secondary text-light lead p-2 border-0 w-75 inputs">
                         <input placeholder="Subject" id="message" type="text" class="m-2 bg-secondary text-light lead p-2 border-0 w-75 inputs">
