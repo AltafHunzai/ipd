@@ -126,7 +126,7 @@
         <!-- <h1 class="text-center py-md-5 font-weight-lighter display-4 py-2">Contact Us</h1> -->
         <div class="row ">
             <div class="col-12 col-md-5 p-0 bg-warning">
-
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d960.5362322033054!2d74.3669210719977!3d35.92627184170987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e637ffc804d485%3A0x57b30b12920a05b0!2sInstitute%20of%20Professional%20Development%2C!5e0!3m2!1sen!2snl!4v1656487463339!5m2!1sen!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="col-12 col-md-7 bg-dark form-main-div">
                 <div class="container p-2 p-md-5 ">
