@@ -119,11 +119,6 @@
 
     <!-- slider starts here -->
     <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
-        <!-- <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol> -->
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="./assets/img/final/short_hand_writing.png" class="d-block w-100" alt="...">
@@ -162,12 +157,11 @@
           <div class="card-body">
             <h1 class="card-title font-weight-lighter display-4 mb-0">DIRECTOR MESSAGE</h1>
             <h3 class="card-title font-weight-normal text-info"><span class="pb-2 sub-heading-first">Seek Some</span> Motivation</h3>
-            <p class="card-text lead my-lg-5 pt-lg-5 pt-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, nobis deserunt sed maiores, qui quia deleniti omnis veniam saepe facilis, aut accusantium. Temporibus quia ab esse consequuntur nobis recusandae officiis cupiditate sapiente commodi sequi sint accusantium ut, odit ullam. Illo perspiciatis sequi debitis, commodi animi qui et omnis distinctio tenetur eos. Magni voluptatum repellendus nostrum minima velit quae voluptates dolores itaque ex voluptas aspernatur, nobis laboriosam totam dignissimos reprehenderit tenetur expedita exercitationem. Pariatur deleniti doloribus fugit ad ipsum quidem ullam ratione amet corrupti sed natus obcaecati explicabo asperiores architecto, quasi harum voluptatibus ut sunt quis esse vero at ea suscipit!</p>
-            <!-- <button class="h4 font-weight-light rounded px-md-4 py-md-3 px-3 py-2 border-0 btn-info ">See More</button> -->
+            <p class="card-text lead my-lg-5 pt-lg-4 pt-3">I am incredibly grateful and humbled to begin as the Faculty Director of institute of professional development karakorum international University. I inevitably draw on my personal journey that guides my values, research, and teaching, and ultimately, also my vision for institute of professional development KIU. Central to this journey is a sobering reminder about how much of a role luck has played in my life. This compels me in two ways. First, it makes me thankful for what I have and reminds us, especially those with privilege, of our responsibility to give back. Second, it offers a clear and unwavering goal: enabling individuals – no matter where they are born and what circumstances they are in – to have access to the resources and opportunities they need, when they need them, to reach their full potential.</p>
           </div>
         </div>
         <div class="col-md-6 p-lg-5 p-lg-4 ">
-          <img src="./assets/img/director.jpg" class="director-msg card-img rounded-edge position-relative" alt="sports car half img">
+          <img src="./assets/img/director.jpg" class="director-msg card-img rounded-edge position-relative" alt="director video">
           <a href="#" class=" position-absolute director-msgs-video rounded-circle">
             <i class="fas fa-play-circle text-info display-3 "></i>
           </a>
@@ -194,7 +188,7 @@
                 <div class="offset-md-1 col-md-10 d-flex flex-column text-center p-0">
                   <div class="card-body">
                     <h2 class="card-title font-weight-normal m-0">Elissa Sane</h2>
-                    <p class="card-text lead py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, similique deleniti temporibus tempora provident culpa placeat, odio veritatis obcaecati ipsam nihil ex aperiam dolor nostrum vero esse quia dicta alias!</p>
+                    <p class="card-text lead py-3">Personally I have no idea about web development, but I had gained alot of skills in development. If anyone wants to grow their web skills than he or she must visit this great institute.</p>
                   </div>
                 </div>
               </div>
@@ -208,8 +202,8 @@
                 </div>
                 <div class="offset-md-1 col-md-10 d-flex flex-column text-center p-0">
                   <div class="card-body">
-                    <h2 class="card-title font-weight-normal m-0">Zain Malik</h2>
-                    <p class="card-text lead py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, similique deleniti temporibus tempora provident culpa placeat, odio veritatis obcaecati ipsam nihil ex aperiam dolor nostrum vero esse quia dicta alias!</p>
+                    <h2 class="card-title font-weight-normal m-0">Shahvaiz</h2>
+                    <p class="card-text lead py-3">Hello I'm Shahvaiz after completing my fsc i decided to join the institute of professional development for Chineese language of HSK I and HSK II. One of the greatest institute in gilgit city for chineese language.</p>
                   </div>
                 </div>
               </div>
@@ -223,8 +217,8 @@
                 </div>
                 <div class="offset-md-1 col-md-10 d-flex flex-column text-center p-0">
                   <div class="card-body">
-                    <h2 class="card-title font-weight-normal m-0">Rihanna</h2>
-                    <p class="card-text lead py-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <h2 class="card-title font-weight-normal m-0">Zoya khan</h2>
+                    <p class="card-text lead py-3">Hello friends I'm a Graphic designer I have completed the NAVTTAC course from institute of professional development KIU. Making alot of hardwork I have made myself compatible to work as freelancer Currently I am working on different freelance marketplaces like Fiverr and Upwork and making 50k per month. </p>
                   </div>
                 </div>
               </div>
@@ -238,8 +232,8 @@
                 </div>
                 <div class="offset-md-1 col-md-10 d-flex flex-column text-center p-0">
                   <div class="card-body">
-                    <h2 class="card-title font-weight-normal m-0">Rihanna</h2>
-                    <p class="card-text lead py-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <h2 class="card-title font-weight-normal m-0">Sunaila shah</h2>
+                    <p class="card-text lead py-3">Hello friends I'm a Graphic designer I have completed the NAVTTAC course from institute of professional development KIU. Making alot of hardwork I have made myself compatible to work as freelancer Currently I am working on different freelance marketplaces as graphic des and making 50k per month. .</p>
                   </div>
                 </div>
               </div>

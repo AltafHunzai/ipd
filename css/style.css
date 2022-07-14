@@ -53,12 +53,6 @@
 .director-msg{
     min-height: 80vh;
     max-height: 70vh;
-    transition: 300ms;
-}
-.director-msg:hover{
-    background-color: #fff;
-    transform: scale(1.05);
-    transition: 300ms;
 }
 .sub-heading-first{
     border-bottom: 4px solid #17a2b8;
@@ -69,6 +63,12 @@
     left: 45%;
     right: 45%;
     background-color: #fff;
+    transition: 0.6s;
+    transition-delay: 200ms;
+}
+.director-msgs-video:hover{
+    transition: 0.6s;
+    transform: scale(1.3);
 }
 
 
