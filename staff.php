@@ -153,7 +153,7 @@
             <div class="card-body text-white pt-md-3 mt-md-5 mx-md-5">
               <h1 class="card-title text-info mb-md-4"><span class="pb-1 border-bottom-2">ASSISTANT DIRECTOR</span></h1>
               <h2 class="card-title">Mr. Shafqat Ali</h2>
-              <p class="lead card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, minus rem nobis et rerum maxime ratione pariatur atque natus aliquid veritatis, cum numquam voluptatum sit suscipit quae quidem soluta! Sapiente deleniti reiciendis quia magnam nisi. Cum delectus sequi possimus molestias, deserunt, est repellendus sit, laudantium amet natus laboriosam sapiente a.</p>
+              <p class="lead card-text">Mr. Shafqat Ali is the assistant director of institute of professional development KIU. Mr. Shafqat Ali has completed his p.h.d from karakorum international univeristy in Human Resource. Mr. Shafqat Ali is working with institute of professional development KIU since 2004. Mr. Shafqat Ali is one of the most competent and active employee in his department.</p>
               <div class="d-md-flex d-block justify-content-around">
                 <div class="d-md-flex d-block text-center justify-content-around py-2">
                   <i class="fas fa-envelope h4 text-info pr-2"></i>
@@ -180,7 +180,7 @@
             <div class="card-body text-white pt-md-3 mt-md-5 mx-md-5">
               <h1 class="card-title text-info mb-md-4"><span class="pb-1 border-bottom-2">ASSISTANT DIRECTOR</span></h1>
               <h2 class="card-title">Miss. Sumara Shaheen</h2>
-              <p class="lead card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, minus rem nobis et rerum maxime ratione pariatur atque natus aliquid veritatis, cum numquam voluptatum sit suscipit quae quidem soluta! Sapiente deleniti reiciendis quia magnam nisi. Cum delectus sequi possimus molestias, deserunt, est repellendus sit, laudantium amet natus laboriosam sapiente a.</p>
+              <p class="lead card-text">Mr. Sumara Shaheen is the assistant director of institute of professional development KIU. Mr. Sumara Shaheen has completed his p.h.d from karakorum international univeristy in Human Resource. Mr. Sumara Shaheen is working with institute of professional development KIU since 2004. Mr. Sumara Shaheen is one of the most competent and active employee in his department.</p>
               <div class="d-md-flex d-block justify-content-around">
                 <div class="d-md-flex d-block text-center justify-content-around py-2">
                   <i class="fas fa-envelope h4 text-info pr-2"></i>
