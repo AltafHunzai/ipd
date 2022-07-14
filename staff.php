@@ -206,6 +206,33 @@
           <div class="col-md-8">
             <div class="card-body text-white pt-md-3 mt-md-5 mx-md-5">
               <h1 class="card-title text-info mb-md-4"><span class="pb-1 border-bottom-2">POSITION</span></h1>
+              <h2 class="card-title">Mr. Yasir</h2>
+              <p class="lead card-text">Mr. Yasir is the graphic designer of institute of professional development KIU. Mr. Yasir has completed his masters from karakorum international univeristy in arts. Mr. Yasir is working with institute of professional development KIU since 2010. Mr. Yasir is one of the most competent and active employee in his department.</p>
+              <div class="d-md-flex d-block justify-content-around">
+                <div class="d-md-flex d-block text-center justify-content-around py-2">
+                  <i class="fas fa-envelope h4 text-info pr-2"></i>
+                  <p class="font-weight-bold text-info">Yasir@kiu.edu.pk</p>
+                </div>
+                <div class="d-md-flex d-block text-center justify-content-around py-2">
+                      <i class="fas fa-phone h4 text-info pr-2"></i>
+                    <p class="font-weight-bold text-info">05811 960010 Ext. 289</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- others card ends here -->
+      
+      <!-- others card starts here -->
+      <div class="card my-5 bg-dark" >
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="./assets/img/director.jpg" class="card-img" alt="mr afzal khan image">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body text-white pt-md-3 mt-md-5 mx-md-5">
+              <h1 class="card-title text-info mb-md-4"><span class="pb-1 border-bottom-2">POSITION</span></h1>
               <h2 class="card-title">Mr. Dummy</h2>
               <p class="lead card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, minus rem nobis et rerum maxime ratione pariatur atque natus aliquid veritatis, cum numquam voluptatum sit suscipit quae quidem soluta! Sapiente deleniti reiciendis quia magnam nisi. Cum delectus sequi possimus molestias, deserunt, est repellendus sit, laudantium amet natus laboriosam sapiente a.</p>
               <div class="d-md-flex d-block justify-content-around">
