@@ -115,10 +115,10 @@
         </div>
     </nav>
     <!-- navbar ends here -->
-    <div class="container-fluid p-0 home-intro ">
+    <div class="container-fluid p-0  ">
 
     <!-- slider starts here -->
-    <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel home-intro slide " data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="./assets/img/final/short_hand_writing.png" class="d-block w-100" alt="...">
