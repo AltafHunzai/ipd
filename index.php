@@ -19,7 +19,7 @@
 </head>
 <body>
         <!-- navbar starts here -->
-        <nav class=" navbar navbar-expand-lg navbar-light bg-white d-flex justify-content-between navigation fixed-top">
+        <nav class=" navbar navbar-expand-lg navbar-light bg-white d-flex justify-content-between navigation shadow fixed-top">
             <a class="navbar-brand mr-5 text-white ml-5 w-20" href="#" data-value="home"><img src="./assets/logo/logo.svg" alt="brand img"></a>
             <div class=" d-flex align-items-center">
             <button class="navbar-toggler bg-primary" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
