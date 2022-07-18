@@ -3,23 +3,22 @@
     margin: 0;
     box-sizing: border-box;
 }
-.navigation-bar{
+.navigation{
     background-color: #fff;
+    color: #000;
     z-index: 11111;
 }
-.navigation-bar.sticky{
-    /* padding: 10px 100px; */
-    background-color: rgb(217, 239, 250);
+.navigation.sticky{
+    background-color: rgb(104, 147, 168);
 }
 .partners{
     width: 30vw;
     height: 25vh;
 }
 .home-intro{
-    /* margin-top: 7.28vw; */
-    z-index: 0;
+    margin-top: 7.28vw;
 }
-/* @media (max-width: 900px) {
+@media (max-width: 900px) {
     .home-intro{
         margin-top: 9.0vw;
     }
@@ -28,7 +27,7 @@
     .home-intro{
         margin-top: 10.0vw;
     }
-} */
+}
 
 .nav-btn{
     font-weight: normal;
