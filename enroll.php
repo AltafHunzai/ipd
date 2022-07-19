@@ -119,14 +119,14 @@
 
                 <!-- personal information starts here -->
                 <h2 class="text-left ml-5 p-3 text-dark">Personal Information</h2>
-                <input type="text" name="Student_f_name" id="Student_f_name" placeholder="First Name" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
-                <input type="text" name="Student_l_name" id="Student_l_name" placeholder="Last Name" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
-                <select name="Student_Gender" id="Student_Gender" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
+                <input required type="text" name="Student_f_name" id="Student_f_name" placeholder="First Name" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
+                <input required type="text" name="Student_l_name" id="Student_l_name" placeholder="Last Name" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
+                <select required name="Student_Gender" id="Student_Gender" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
                     <option value="">Gender</option>
                     <option value="Male">Male</option>
                     <option value="Female">Female</option>
                 </select>
-                <select name="Student_Course" id="Student_Course" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
+                <select required name="Student_Course" id="Student_Course" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
                     <option value="">Select Course</option>
                     <option value="Shorthand Writing">Shorthand Writing</option>
                     <option value="Python Programming">Python Programming</option>
@@ -137,7 +137,7 @@
                     <option value="Web Development">Web Development</option>
                     <option value="and many More..">and many More..</option>
                 </select>
-                <select name="Student_Religion" id="Student_Religion" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
+                <select required name="Student_Religion" id="Student_Religion" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
                     <option value="">Religion</option>
                     <option value="Islam">Islam</option>
                     <option value="Christian">Christian</option>
@@ -146,13 +146,13 @@
                     <option value="Buddhist">Buddhist</option>
                     <option value="Atheist">Atheist</option>
                 </select>
-                <input type="text" name="Student_D_O_B" placeholder="Date Of Birth 0000-00-00" id="Student_D_O_B" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
-                <input type="number" name="Student_number" id="Student_number" placeholder="Mobile No." class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
-                <input type="email" name="Student_email" id="Student_email" placeholder="Email" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
-                <input type="number" name="Student_CNIC" id="Student_CNIC" placeholder="CNIC" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
-                <input type="text" name="Student_Nationality" id="Student_Nationality" placeholder="Nationality" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
-                <input type="text" name="Student_Current_address" id="Student_Current_address" placeholder="Current Address" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
-                <select name="Course_Knowledge" id="Course_Knowledge" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
+                <input required type="text" name="Student_D_O_B" placeholder="Date Of Birth 0000-00-00" id="Student_D_O_B" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
+                <input required type="number" name="Student_number" id="Student_number" placeholder="Mobile No." class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
+                <input required type="email" name="Student_email" id="Student_email" placeholder="Email" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
+                <input required type="number" name="Student_CNIC" id="Student_CNIC" placeholder="CNIC" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
+                <input required type="text" name="Student_Nationality" id="Student_Nationality" placeholder="Nationality" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
+                <input required type="text" name="Student_Current_address" id="Student_Current_address" placeholder="Current Address" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
+                <select required name="Course_Knowledge" id="Course_Knowledge" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
                     <option value="">Course Knowledge</option>
                     <option value="Beginner">Beginner</option>
                     <option value="Intermediate">Intermediate</option>
@@ -160,20 +160,20 @@
                 </select>
                 <div class="d-inline border py-2  bg-secondary">
                     <label for="Student_Image" class=" text-white h5">Passport size pic :</label>
-                    <input type="file" name="Student_Image" class="w-20 text-white" id="Student_Image">
+                    <input required type="file" name="Student_Image" class="w-20 text-white" id="Student_Image">
                 </div>
                 <div class="d-inline border py-2 bg-secondary">
                     <label for="Student_domicile" class="text-white h5">Domicile :</label>
-                    <input type="file" name="Student_domicile" class="w-20 text-white" id="Student_domicile">
+                    <input required type="file" name="Student_domicile" class="w-20 text-white" id="Student_domicile">
                 </div>
                 <hr class="w-90 mx-auto">
                 <!-- personal information starts here -->
                 
                 <!-- father information starts here -->
                 <h2 class="text-left ml-5 p-3 text-dark">Father Information</h2>
-                <input type="text" name="Father_Name" id="Father_Name" placeholder="Father Name" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
-                <input type="text" name="Father_occupation" id="Father_occupation" placeholder="Father's Occupation" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
-                <select name="Father_Religion" id="Father_Religion" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
+                <input required type="text" name="Father_Name" id="Father_Name" placeholder="Father Name" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
+                <input required type="text" name="Father_occupation" id="Father_occupation" placeholder="Father's Occupation" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
+                <select required name="Father_Religion" id="Father_Religion" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
                     <option value="">Father Religion</option>
                     <option value="Islam">Islam</option>
                     <option value="Christian">Christian</option>
@@ -182,18 +182,18 @@
                     <option value="Buddhist">Buddhist</option>
                     <option value="Atheist">Atheist</option>
                 </select>
-                <input type="number" name="Father_CNIC" id="Father_CNIC" placeholder="CNIC" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
-                <input type="number" name="Father_Number" id="Father_Number" placeholder="Mobile No." class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
-                <input type="email" name="Father_email" id="Father_email" placeholder="Email" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
-                <input type="text" name="Father_D_O_B" placeholder="Father_D_O_B" id="" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
-                <input type="address" name="Father_Current_Address" id="Father_Current_Address" placeholder="Current Address" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
+                <input required type="number" name="Father_CNIC" id="Father_CNIC" placeholder="CNIC" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
+                <input required type="number" name="Father_Number" id="Father_Number" placeholder="Mobile No." class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
+                <input required type="email" name="Father_email" id="Father_email" placeholder="Email" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
+                <input required type="text" name="Father_D_O_B" placeholder="Father_D_O_B" id="" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
+                <input required type="address" name="Father_Current_Address" id="Father_Current_Address" placeholder="Current Address" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
                 <!-- father information ends here -->
                 <hr class="w-90 mx-auto">
                 
                 <!-- educational information starts here -->
                 <h2 class="text-left ml-5 p-3 text-dark">Education Information</h2>
                 <p class="lead text-left ml-5 pl-3">NOTE! Please enter your latest Qualification.</p>
-                <select name="Student_Qualification" id="Student_Qualification" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
+                <select required name="Student_Qualification" id="Student_Qualification" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
                     <option value="">Education level</option>
                     <option value="Secondary">Secondary</option>
                     <option value="Diploma">Diploma</option>
@@ -203,8 +203,8 @@
                     <option value="Masters">Masters</option>
                     <option value="p.h.d">p.h.d</option>
                 </select>
-                <input type="text" name="Institution" placeholder="institution" id="Institution" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
-                <input type="datetime" name="Year_of_Passing" id="Year_of_Passing" placeholder="Year Of Passing" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
+                <input required type="text" name="Institution" placeholder="institution" id="Institution" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
+                <input required type="datetime" name="Year_of_Passing" id="Year_of_Passing" placeholder="Year Of Passing" class="bg-secondary text-white w-30 p-2 my-2 border-0 lead rounded">
                 <!-- <button class="btn btn-primary p-2 font-weight-bold">Add Record</button> -->
                 <!-- education information ends here -->
                 <button type="submit" class="btn btn-primary text-white px-3 py-2 mt-5 mx-auto d-block rounded font-weight-bold">Submit Form</button>
