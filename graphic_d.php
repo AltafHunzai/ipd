@@ -117,7 +117,7 @@
         <div class="card mt-5 rounded-edge my-5" >
             <div class="row no-gutters ">
             <div class="col-md-6 d-flex flex-fill">
-                <img src="./assets/img/2.png" class="w-100" alt="...">
+                <img src="./assets/img/4.png" class="w-100" alt="...">
               </div>
               <div class="col-md-6">
                 <div class="card-body bg-light p-5">

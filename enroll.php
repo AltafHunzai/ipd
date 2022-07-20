@@ -274,6 +274,7 @@
         </div>
     </div>
     <!-- forms ends here -->
+    
         <!-- footer starts here -->
         <div class="container-fluid p-0 bg-dark pt-5">
         <div class="container d-flex flex-column justify-content-between flex-md-row py-4">

@@ -194,4 +194,48 @@
             </form>
         </div>
     </div>
+    <!-- form ends here -->
+
+            <!-- footer starts here -->
+            <div class="container-fluid p-0 bg-dark pt-5">
+        <div class="container d-flex flex-column justify-content-between flex-md-row py-4">
+        <div class="container d-flex flex-column  text-white">
+                <img src="./assets/logo/logo.svg" class="w-50" alt="">
+                <p class="lead text-white py-4 m-0 w-50"> <i class="fas fa-location-pin"></i> opposite to Karakorum international university Gilgit Main Branch</p>
+                <i class="fas fa-phone-alt py-2">&nbsp; &nbsp; &nbsp; 05811456789</i>
+                <i class="fas fa-envelope py-2">&nbsp; &nbsp; &nbsp; ipd@gmail.com</i>
+                <div class="d-flex mt-3">
+                    <a href="#" class="text-white pr-4"><i class="fab lead p-2 bg-primary rounded-circle fa-facebook"></i></a>
+                    <a href="#" class="text-white pr-4"><i class="fab lead p-2 bg-primary rounded-circle fa-twitter"></i></a>
+                    <a href="#" class="text-white pr-4"><i class="fab lead p-2 bg-success rounded-circle fa-google"></i></a>
+                    <a href="#" class="text-white pr-4"><i class="fab lead p-2 bg-white text-danger rounded-circle fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class=" text-white">
+                <h3 class="text-white py-3 font-weight-bolder ml-md-5 ml-0 text-info">Quick links</h3>
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex flex-column mx-md-5 ml-0">
+                        <a href="#" class="text-white lead py-2">Home</a>
+                        <a href="#" class="text-white lead py-2">About Us</a>
+                        <a href="#" class="text-white lead py-2">Our Team</a>
+                        <a href="#" class="text-white lead py-2">Courses</a>
+                        <a href="#" class="text-white lead py-2">Blogs</a>
+                    </div>
+                    <div class="d-flex flex-column mx-md-5 ml-0">
+                        <a href="#" class="text-white lead py-2">Trainers</a>
+                        <a href="#" class="text-white lead py-2">Developers</a>
+                        <a href="#" class="text-white lead py-2">Testimonials</a>
+                        <a href="#" class="text-white lead py-2">Services</a>
+                        <a href="#" class="text-white lead py-2">FAQ'S</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="bg-white w-75 mx-auto">
+        <div class="container">
+            <p class=" text-center lead text-white py-4 m-0">© 2022 Copyright KIU. All Rights Reserved | Developed by IT Section KIU</p>
+        </div>
+    </div>
+    <!-- footer ends here -->
 </body>
