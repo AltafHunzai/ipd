@@ -14,9 +14,9 @@
 </head>
 <body>
     <!-- navbar starts here -->
-    <nav class=" navbar navbar-expand-lg navbar-light d-flex justify-content-between navigation-bar fixed-top">
-       <a class="navbar-brand mr-5 text-white ml-5 w-20" href="#" data-value="home"><img src="./assets/logo/logo.svg" alt="brand img"></a>
-       <div class=" d-flex align-items-center">
+    <nav class=" navbar navbar-expand-lg navbar-light bg-white d-flex justify-content-between navigation shadow fixed-top">
+            <a class="navbar-brand mr-5 text-white ml-5 w-20" href="#" data-value="home"><img src="./assets/logo/logo.svg" alt="brand img"></a>
+            <div class=" d-flex align-items-center">
             <button class="navbar-toggler bg-primary" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <!-- <span class="navbar-toggler-icon"></span> -->
                 <i class="fas fa-align-justify text-white"></i>
@@ -24,66 +24,62 @@
             <div class="collapse navbar-collapse menu-bar">
                 <ul class=" navbar-nav">
                     <li class="nav-item active ">
-                        <a class="h5" href="index.php" data-value="about">
-                            <button type="button" class="btn nav-btn font-weight-normal text-white px-lg-4">Home</button><span  class="sr-only">(current)</span>
+                        <a class="h5 " href="index.php" data-value="about">
+                            <button type="button" class=" font-weight-normal btn nav-btn text-dark px-lg-4">Home</button><span  class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item ">
-                        <a class="h5" href="aboutus.php" data-value="Portfolio">
-                            <button type="button" class="btn nav-btn font-weight-normal  text-white px-lg-4">About Us</button>
+                        <a class="h5  " href="aboutus.php" data-value="Portfolio">
+                            <button type="button" class=" font-weight-normal btn nav-btn text-dark px-lg-4">About Us</button>
                         </a>
                         <div class="sub-menu-1">
                           <ul>
                               <li><a href="staff.php" class="d-block">Meet Our Team</a></li>
-                              <li><a href="#" class="d-block">Our Vision</a></li>
-                              <li><a href="#" class="d-block">Our Culture</a></li>
-                              <li><a href="#" class="d-block">Our Services</a></li>
-                              <li><a href="#" class="d-block">Our Facilities</a></li>
+                              <li><a href="aboutus.php" class="d-block">Our Vision</a></li>
+                              <li><a href="aboutus.php" class="d-block">Our Culture</a></li>
+                              <li><a href="aboutus.php" class="d-block">Our Services</a></li>
+                              <li><a href="aboutus.php" class="d-block">Our Facilities</a></li>
                           </ul>
                       </div>
                     </li>
-                    <!-- <li class="nav-item ">
-                        <a class="h5" href="staff.php" data-value="blog">
-                            <button type="button" class="btn nav-btn font-weight-normal text-white px-lg-4">Our Staff</button>
-                        </a>
-                    </li> -->
                     <li class="nav-item ">
                         <a class="h5 "href="#" data-value="blog">
-                            <button type="button" class="btn nav-btn font-weight-normal text-white px-lg-4">Courses</button>
+                            <button type="button" class=" font-weight-normal btn nav-btn text-dark px-lg-4">Courses</button>
                         </a>
                         <div class="sub-menu-1">
                           <ul>
-                              <li class="hover-me"><a href="#">IT Courses <i class="fas fa-angle-right text-white"></i></a>
+                              <li class="hover-me"><a href="#">IT Courses <i class="fas fa-angle-right text-dark"></i></a>
                                   <div class="sub-menu-2">
                                       <ul>
-                                          <li><a href="#">Web Development</a></li>
-                                          <li><a href="#">Graphic Desiging</a></li>
-                                          <li><a href="#">Python Programming</a></li>
-                                          <li><a href="#">Freelancing</a></li>
+                                          <li><a href="webdiv.php">Web Development</a></li>
+                                          <li><a href="graphic_d.php">Graphic Desiging</a></li>
+                                          <li><a href="python.php">Python Programming</a></li>
                                       </ul>
                                   </div>
                               </li>
-                              <li class="hover-me"><a href="#">Language Courses <i class="fas fa-angle-right text-white"></i></a>
+                              <li class="hover-me"><a href="#">Language Courses <i class="fas fa-angle-right text-dark"></i></a>
                                   <div class="sub-menu-2">
                                       <ul>
                                           <li><a href="#">English Language</a></li>
-                                          <li><a href="#">Chinnese Language <i class="fas fa-angle-right text-white"></i></a>
+                                          <li><a href="#">Chinnese Language <i class="fas fa-angle-right text-dark"></i></a>
                                             <div class="sub-menu-3">
                                               <ul>
-                                                  <li><a href="#">HSK I</a></li>
-                                                  <li><a href="#">HSK II</a></li>
+                                                  <li><a href="hsk_I.php">HSK I</a></li>
+                                                  <li><a href="hsk_II.php">HSK II</a></li>
+                                                  <li><a href="hsk_III.php">HSK III</a></li>
+                                                  <li><a href="hsk_IV.php">HSK IV</a></li>
                                               </ul>
                                           </div>
                                           </li>
                                       </ul>
                                   </div>
                               </li>
-                              <li class="hover-me"><a href="#">Other Courses <i class="fas fa-angle-right text-white"></i></a>
+                              <li class="hover-me"><a href="#">Other Courses <i class="fas fa-angle-right text-dark"></i></a>
                                   <div class="sub-menu-2">
                                       <ul>
-                                          <li><a href="#">Shorthand Writing</a></li>
-                                          <li><a href="#">IELTS Preparatory </a></li>
-                                          <li><a href="#">Huawei Mechatronics </a></li>
+                                          <li><a href="shorthand.php">Shorthand Writing</a></li>
+                                          <li><a href="ielts.php">IELTS Preparatory </a></li>
+                                          <li><a href="huawei.php">Huawei Mechatronics </a></li>
                                       </ul>
                                   </div>
                               </li>
@@ -91,19 +87,25 @@
                       </div>
                     </li>
                     <li class="nav-item ">
-                      <a class="h5" href="blogs.php" data-value="blog">
-                          <button type="button" class="btn nav-btn font-weight-normal text-white px-lg-4">Blogs</button>
+                      <a class="h5 "href="blogs.php" data-value="blog">
+                          <button type="button" class=" font-weight-normal btn nav-btn text-dark px-lg-4">Blogs</button>
                       </a>
                     </li>
                     <li class="nav-item ">
-                      <a class="h5" href="contact.php" data-value="blog">
-                          <button type="button" class="btn nav-btn font-weight-normal text-white px-lg-4">Contact Us</button>
+                      <a class="h5 "href="contact.php" data-value="blog">
+                          <button type="button" class=" font-weight-normal btn nav-btn text-dark px-lg-4">Contact Us</button>
                       </a>
                     </li>
                     <li class="nav-item ">
-                      <a class="h5 "href="enroll.php" data-value="blog">
+                      <a class="h5 "href="#" data-value="blog">
                           <button type="button" class=" font-weight-normal btn btn-success nav-btn text-white px-lg-4">Enroll Now</button>
                       </a>
+                      <div class="sub-menu-1">
+                        <ul>
+                          <li><a href="enroll.php">As Student</a></li>
+                          <li><a href="trainer.php">As trainer</a></li>
+                        </ul>
+                      </div>
                     </li>
                 </ul>
             </div>
